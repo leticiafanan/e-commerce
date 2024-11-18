@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
@@ -11,6 +10,9 @@ export default defineNuxtConfig({
   modules: ["vue3-carousel-nuxt", 'vue3-carousel-nuxt'],
   carousel: {
     prefix: 'MyPrefix'
+  },
+  app: {
+    baseURL: process.env.BASE_URL || "http://localhost:3000/home"
   }
 
 });
