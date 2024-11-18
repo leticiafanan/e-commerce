@@ -11,8 +11,6 @@ export default defineNuxtConfig({
   carousel: {
     prefix: 'MyPrefix'
   },
-  app: {
-    baseURL: process.env.BASE_URL || "http://localhost:3000"
-  }
+  
 
 });
