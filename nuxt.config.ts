@@ -12,7 +12,7 @@ export default defineNuxtConfig({
     prefix: 'MyPrefix'
   },
   app: {
-    baseURL: process.env.BASE_URL || "http://localhost:3000/home"
+    baseURL: process.env.BASE_URL || "http://localhost:3000"
   }
 
 });
